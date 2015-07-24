@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{000a12a1-7686-412f-a365-f674bddca6c3}</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PopStarLua_luaproject</Name>
+    <RootNamespace>LuaProject1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Resources\AudioEngine.lua">
+      <Link>AudioEngine.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\CCBReaderLoad.lua">
+      <Link>CCBReaderLoad.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\Cocos2d.lua">
+      <Link>Cocos2d.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\CocoStudio.lua">
+      <Link>CocoStudio.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\extern.lua">
+      <Link>extern.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\json.lua">
+      <Link>json.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\CCValue.lua">
+      <Link>CCValue.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\codeLog.lua">
+      <Link>codeLog.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\engine\VisibleRect.lua">
+      <Link>VisibleRect.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\GameDefine.lua">
+      <Link>GameDefine.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\hello.lua">
+      <Link>hello.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\luaMain.lua">
+      <Link>luaMain.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\RequireFiles.lua">
+      <Link>RequireFiles.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\resPath.lua">
+      <Link>resPath.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\util\FunUtil.lua">
+      <Link>FunUtil.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\util\LayerUtil.lua">
+      <Link>LayerUtil.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\views\HelloMenu.lua">
+      <Link>HelloMenu.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\views\PlayLayer.lua">
+      <Link>PlayLayer.lua</Link>
+    </Compile>
+    <Compile Include="..\Resources\script\views\StarCellSprite.lua">
+      <Link>StarCellSprite.lua</Link>
+    </Compile>
+    <Compile Include="D:\用户目录\我的文档\BabeLua\Completion\lua5.1.lua">
+      <Link>lua5.1.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\BaseMgr.lua">
+      <Link>BaseMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\AppConfig.lua">
+      <Link>AppConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\AppDefine.lua">
+      <Link>AppDefine.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\BgConfig.lua">
+      <Link>BgConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\BroadcastConfig.lua">
+      <Link>BroadcastConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\CacheFilePath.lua">
+      <Link>CacheFilePath.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\GlobalEvent.lua">
+      <Link>GlobalEvent.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\HttpProxy.lua">
+      <Link>HttpProxy.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\OccupationConfig.lua">
+      <Link>OccupationConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\PushConfig.lua">
+      <Link>PushConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\ReflectionTagConfig.lua">
+      <Link>ReflectionTagConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\ServiceValue.lua">
+      <Link>ServiceValue.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\Setting.lua">
+      <Link>Setting.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\TagDefine.lua">
+      <Link>TagDefine.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\ViewConst.lua">
+      <Link>ViewConst.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\define\VoiceStyleDefine.lua">
+      <Link>VoiceStyleDefine.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\IncludeFeatureFile.lua">
+      <Link>IncludeFeatureFile.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\aite\AiteCache.lua">
+      <Link>AiteCache.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\aite\AiteMgr.lua">
+      <Link>AiteMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\aite\AiteObj.lua">
+      <Link>AiteObj.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\DataEventMgr.lua">
+      <Link>DataEventMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\AboutMeMgr.lua">
+      <Link>AboutMeMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\AdminMgr.lua">
+      <Link>AdminMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\AdvertiseMgr.lua">
+      <Link>AdvertiseMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\AuthMgr.lua">
+      <Link>AuthMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\AutoCodeMgr.lua">
+      <Link>AutoCodeMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\BcMgr.lua">
+      <Link>BcMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\BroadcastNoticeMgr.lua">
+      <Link>BroadcastNoticeMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\CurUserMgr.lua">
+      <Link>CurUserMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\DeviceMgr.lua">
+      <Link>DeviceMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\DynamicMgr.lua">
+      <Link>DynamicMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\EvaulateMgr.lua">
+      <Link>EvaulateMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\FavMgr.lua">
+      <Link>FavMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\FriendMgr.lua">
+      <Link>FriendMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\GroupMgr.lua">
+      <Link>GroupMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\HelpMgr.lua">
+      <Link>HelpMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\LocationMgr.lua">
+      <Link>LocationMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\LoginMgr.lua">
+      <Link>LoginMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\ModelCardMgr.lua">
+      <Link>ModelCardMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\MoneyMgr.lua">
+      <Link>MoneyMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\NavigationMgr.lua">
+      <Link>NavigationMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\PwdMgr.lua">
+      <Link>PwdMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\RankMgr.lua">
+      <Link>RankMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\ReportMgr.lua">
+      <Link>ReportMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\ResumeMgr.lua">
+      <Link>ResumeMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\SquareMgr.lua">
+      <Link>SquareMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\TagMgr.lua">
+      <Link>TagMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\TCPMgr.lua">
+      <Link>TCPMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\UserBaseInfoMgr.lua">
+      <Link>UserBaseInfoMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\UserDetailInfoMgr.lua">
+      <Link>UserDetailInfoMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\UserMainViewMgr.lua">
+      <Link>UserMainViewMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataMgr\ValueCache.lua">
+      <Link>ValueCache.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\dataObj\BroadcastObject.lua">
+      <Link>BroadcastObject.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\IMMessage.lua">
+      <Link>IMMessage.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\MsgContentType.lua">
+      <Link>MsgContentType.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\MsgMgr.lua">
+      <Link>MsgMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\ObjFriendMsg.lua">
+      <Link>ObjFriendMsg.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\ObjGroupMsg.lua">
+      <Link>ObjGroupMsg.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\ObjIMMsgCache.lua">
+      <Link>ObjIMMsgCache.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IM\ObjNormalMsg.lua">
+      <Link>ObjNormalMsg.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\IncludeLogicFile.lua">
+      <Link>IncludeLogicFile.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\yuepai\YuePaiConfig.lua">
+      <Link>YuePaiConfig.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\yuepai\YuePaiMgr.lua">
+      <Link>YuePaiMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\logic\yuepai\YuePaiVo.lua">
+      <Link>YuePaiVo.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\SingtonMgr.lua">
+      <Link>SingtonMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\AnimationUtil.lua">
+      <Link>AnimationUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\BankUtil.lua">
+      <Link>BankUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\BroadcastUtil.lua">
+      <Link>BroadcastUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\BtnUtil.lua">
+      <Link>BtnUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\CreditUtil.lua">
+      <Link>CreditUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\FileUtil.lua">
+      <Link>FileUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\GroupUtil.lua">
+      <Link>GroupUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\IconUtil.lua">
+      <Link>IconUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\ImageUtil.lua">
+      <Link>ImageUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\LocateUtil.lua">
+      <Link>LocateUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\MobileUtil.lua">
+      <Link>MobileUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\ModelCardUtil.lua">
+      <Link>ModelCardUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\MoneyUtil.lua">
+      <Link>MoneyUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\MoyiStringUtil.lua">
+      <Link>MoyiStringUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\PhotoUtil.lua">
+      <Link>PhotoUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\PlatformUtil.lua">
+      <Link>PlatformUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\PopViewUtil.lua">
+      <Link>PopViewUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\ReflectionTagUtil.lua">
+      <Link>ReflectionTagUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\TagUtil.lua">
+      <Link>TagUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\TextFieldUtil.lua">
+      <Link>TextFieldUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\UivItemUtil.lua">
+      <Link>UivItemUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\UrlUtil.lua">
+      <Link>UrlUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\UserUtil.lua">
+      <Link>UserUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\VideoUtil.lua">
+      <Link>VideoUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\util\YuePaiUtil.lua">
+      <Link>YuePaiUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\BaseView.lua">
+      <Link>BaseView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\base\ContextMgr.lua">
+      <Link>ContextMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\base\MainView.lua">
+      <Link>MainView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\base\TitleBar.lua">
+      <Link>TitleBar.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\base\ViewController.lua">
+      <Link>ViewController.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\base\ViewMgr.lua">
+      <Link>ViewMgr.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\broadcast\BroadcastNewMain.lua">
+      <Link>BroadcastNewMain.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\common\NoContentTipsPage.lua">
+      <Link>NoContentTipsPage.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\common\UserList.lua">
+      <Link>UserList.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\AlertView.lua">
+      <Link>AlertView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\AudioView.lua">
+      <Link>AudioView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\CameraView.lua">
+      <Link>CameraView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\ContextMenu.lua">
+      <Link>ContextMenu.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\DatePickerView.lua">
+      <Link>DatePickerView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\EmojiView.lua">
+      <Link>EmojiView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\EMPlayer.lua">
+      <Link>EMPlayer.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\Evaluate.lua">
+      <Link>Evaluate.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\FinishView.lua">
+      <Link>FinishView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\GridMediaView.lua">
+      <Link>GridMediaView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\HelpView.lua">
+      <Link>HelpView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\ImageCropView.lua">
+      <Link>ImageCropView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\ImagePreview.lua">
+      <Link>ImagePreview.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\KeyBorad.lua">
+      <Link>KeyBorad.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\ListView.lua">
+      <Link>ListView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\MediaView.lua">
+      <Link>MediaView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\MoyiListView.lua">
+      <Link>MoyiListView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\MultiLineEditor.lua">
+      <Link>MultiLineEditor.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\NavigationView.lua">
+      <Link>NavigationView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\PopAite.lua">
+      <Link>PopAite.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\PopEvaluate.lua">
+      <Link>PopEvaluate.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\PopMenu.lua">
+      <Link>PopMenu.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\PopShare.lua">
+      <Link>PopShare.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\PopShareSDK.lua">
+      <Link>PopShareSDK.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\Select.lua">
+      <Link>Select.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\SelectInput.lua">
+      <Link>SelectInput.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\SingleLineEditor.lua">
+      <Link>SingleLineEditor.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\TabView.lua">
+      <Link>TabView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\Tip.lua">
+      <Link>Tip.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\control\Wait.lua">
+      <Link>Wait.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\IncludeViewFile.lua">
+      <Link>IncludeViewFile.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\ui\SamplePage.lua">
+      <Link>SamplePage.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\feature\view\ui\UICUtil.lua">
+      <Link>UICUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\language.lua">
+      <Link>language.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\ben.lua">
+      <Link>ben.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\common.lua">
+      <Link>common.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\czh.lua">
+      <Link>czh.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\DengJianXun.lua">
+      <Link>DengJianXun.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\index.lua">
+      <Link>index.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\Jean.lua">
+      <Link>Jean.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\liyc.lua">
+      <Link>liyc.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\lph.lua">
+      <Link>lph.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\mincong.lua">
+      <Link>mincong.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\miros.lua">
+      <Link>miros.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\lang\zh-CN\paris.lua">
+      <Link>paris.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\main.lua">
+      <Link>main.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\component\BaseListView.lua">
+      <Link>BaseListView.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\component\CallProxy.lua">
+      <Link>CallProxy.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\component\CoolTime.lua">
+      <Link>CoolTime.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\component\PageScroll.lua">
+      <Link>PageScroll.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\component\TimeProxy.lua">
+      <Link>TimeProxy.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\IncludeModuleFile.lua">
+      <Link>IncludeModuleFile.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\net\HttpService.lua">
+      <Link>HttpService.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\BabeLuaUtil.lua">
+      <Link>BabeLuaUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\ListBoxUtil.lua">
+      <Link>ListBoxUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\StringUtil.lua">
+      <Link>StringUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\TableUtil.lua">
+      <Link>TableUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\TextureUtil.lua">
+      <Link>TextureUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\TimeUtil.lua">
+      <Link>TimeUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\util\UnicodeEmojiUtil.lua">
+      <Link>UnicodeEmojiUtil.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\view\OverScroll.lua">
+      <Link>OverScroll.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\view\TabComponent.lua">
+      <Link>TabComponent.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\view\WaterFlow.lua">
+      <Link>WaterFlow.lua</Link>
+    </Compile>
+    <Compile Include="F:\shrine\magicil\script\lua\module\view\WaterFlowObject.lua">
+      <Link>WaterFlowObject.lua</Link>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
